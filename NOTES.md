@@ -1,6 +1,6 @@
 # BOTTLE TOP DROP (g_bottle_top_drop)
 
-Status: scaffolded 2026-10-07. Unity family. Facts: [notes/scaffold.md](notes/scaffold.md).
+Status: **runs (smoke-tested)** — Unity family; reaches its menu/tutorial/board headless; not yet played by hand. Scaffolded 2026-10-07. Facts: [notes/scaffold.md](notes/scaffold.md).
 
 ## Checklist
 - [ ] Starts: `make run GAME=g_bottle_top_drop` (player log on stdout)
@@ -12,3 +12,4 @@ Status: scaffolded 2026-10-07. Unity family. Facts: [notes/scaffold.md](notes/sc
 
 ## Log
 <!-- dated notes: what broke, what fixed it -->
+- 2026-10-07 — smoke test: 20 s with screenshots (build/smoke/g_bottle_top_drop); no crash. Launcher settings now follow the cabinet's own launcher.xml format (per-player keys are player.<n>.player.*, 1-based).
